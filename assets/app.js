@@ -14,5 +14,14 @@ function criar_cartao(categoria, pergunta, resposta){
             </div>
         </div>
     `
+
     container.appendChild(cartao)
+}
+
+function adicionarCartao() {
+    const categoria = prompt("Qual é a categoria?")
+    const pergunta = prompt("Digite sua pergunta?")
+    const resposta = prompt("Digite qual a resposta?")
+
+    criar_cartao(categoria, pergunta, resposta)
 }
