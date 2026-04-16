@@ -5,13 +5,13 @@ criar_cartao(
 )
 
 criar_cartao(
-    "futebol",
-    "Qual o campeão da Livbertadores de 2024?",
+    "Futebol",
+    "Qual o campeão da Libertadores de 2024?",
     "Botafogo"
 )
 
 criar_cartao(
-    "futebol",
-    "Qual o campeão da Livbertadores de 2024?",
-    "Botafogo"
+    "Livros",
+    "Qual o nome do segundo livro da saga de Harry Potter?",
+    "Câmara Secreta"
 )

@@ -1,23 +1,29 @@
 body{
     margin: 0;
+    background-color: #47026c;
+    font-family: 'Georgia', 'Times New Roman', serif;
 }
 
+
+
 h3 {
+    font-family: 'Times New Roman', serif;
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
     margin: 0;
-    padding: 0.2rem 0.6rem;
+    padding: 0.1rem 0.4rem;
     border-radius: 0.4rem;
+    font-size: 1.2rem;
     color: white;
-    background-color: blue;
+    background-color: #5a189a;
     backface-visibility: hidden;
 }
-
 
 .cartao{
     height: 12rem;
 }
+
 #container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -25,6 +31,8 @@ h3 {
 }
 
 .conteudo{
+    color: white;
+    background-color: #b731ffef;
     position: relative;
     width: 100%;
     height: 100%;
@@ -32,6 +40,7 @@ h3 {
     transition: transform 1s ease;
     transform-style: preserve-3d;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
 }
 
 .cartao:hover .conteudo{
@@ -46,9 +55,21 @@ h3 {
     align-items: center;
     justify-content: center;
     backface-visibility: hidden;
+    font-size: 1.3rem;
 }
 
 .resposta{
     transform: rotateY(180deg);
 }
 
+#botao_adicionar {
+    font-family: 'Times New Roman', serif;
+    margin: 2rem auto;
+    padding: 0.7rem 2rem;
+    background-color: #5a189a;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.11rem;
+}
